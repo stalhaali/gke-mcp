@@ -96,7 +96,7 @@ To connect Gemini CLI to the `gke-mcp` HTTP server, you need to configure the CL
 ```json
 {
   "mcpServers": {
-    "gke_mcp": {
+    "gke": {
       "httpUrl": "http://127.0.0.1:8080/mcp"
     }
   }
