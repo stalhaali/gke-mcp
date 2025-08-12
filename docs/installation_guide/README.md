@@ -4,7 +4,7 @@ This directory contains detailed instructions on how to install and configure th
 
 - **[Gemini CLI](../../README.md#installation)**
 - **[Cursor](install_cursor.md)**
-- **Claude Desktop**: instructions coming soon
+- **[Claude Applications](install_claude.md)**
 
 ## Other AIs
 
