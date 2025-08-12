@@ -18,7 +18,7 @@ The location of the file varies by operating system:
 - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
 - **Linux**: `~/.config/Claude/claude_desktop_config.json` (unofficial support)
 
-You can also find this file by going to the settings in the Claud Desktop app and looking for the Developer tab. There should be a button to edit config.
+You can also find this file by going to the settings in the Claude Desktop app and looking for the Developer tab. There should be a button to edit config.
 
 ### Installation
 Open `claude_desktop_config.json` in a text editor. Then, find the mcpServers section within the JSON file. If it doesn't exist,
