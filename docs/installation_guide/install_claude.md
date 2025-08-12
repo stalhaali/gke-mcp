@@ -13,14 +13,14 @@ Claude Desktop provides a graphical interface for interacting with the GKE MCP S
 
 ### Configuration File Location
 
-Claude Desktop requires you to manually edit it's configuration file, `claude_desktop_config.json`.
+Claude Desktop requires you to manually edit its configuration file, `claude_desktop_config.json`.
 The location of the file varies by operating system:
 
 - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
 - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
 - **Linux**: `~/.config/Claude/claude_desktop_config.json` (unofficial support)
 
-You can also find this file by going to the settings in the Claud Desktop app and looking for the Developer tab. There should be a button to edit config.
+You can also find this file by going to the settings in the Claude Desktop app and looking for the Developer tab. There should be a button to edit config.
 
 ### Installation
 
