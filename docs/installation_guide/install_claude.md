@@ -12,8 +12,10 @@ Claude Desktop provides a graphical interface for interacting with the GKE MCP S
 2. Claude Desktop is installed. If not, the application can be downloaded from [Claude's official website](https://claude.ai/download).
 
 ### Configuration File Location
-Claude Desktop requires you to manually edit it's configuration file, `claude_desktop_config.json`. 
+
+Claude Desktop requires you to manually edit it's configuration file, `claude_desktop_config.json`.
 The location of the file varies by operating system:
+
 - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
 - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
 - **Linux**: `~/.config/Claude/claude_desktop_config.json` (unofficial support)
@@ -21,9 +23,11 @@ The location of the file varies by operating system:
 You can also find this file by going to the settings in the Claud Desktop app and looking for the Developer tab. There should be a button to edit config.
 
 ### Installation
+
 Open `claude_desktop_config.json` in a text editor. Then, find the mcpServers section within the JSON file. If it doesn't exist,
 create it. Add the following JSON snippet, making sure to merge it correctly with any existing configurations. The command field
 should point to the full path of the `gke-mcp` binary.
+
 ```json
 {
   "mcpServers": {
@@ -33,8 +37,11 @@ should point to the full path of the `gke-mcp` binary.
   }
 }
 ```
+
 Note: If the `gke-mcp` command is not in your system's PATH, you must provide the full path to the binary.
+
 ### Troubleshooting
+
 - Check logs at:
   - **macOS**: `~/Library/Logs/Claude/`
   - **Windows**: `%APPDATA%\Claude\logs\`
