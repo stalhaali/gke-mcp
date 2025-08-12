@@ -12,7 +12,7 @@ Claude Desktop provides a graphical interface for interacting with the GKE MCP S
 2. Claude Desktop is installed. If not, the application can be downloaded from [Claude's official website](https://claude.ai/download).
 
 ### Configuration File Location
-Claude Desktop requires you to manually edit it's configuration file, `claude_desktop_config.json`. 
+Claude Desktop requires you to manually edit its configuration file, `claude_desktop_config.json`.
 The location of the file varies by operating system:
 - **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
 - **Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
