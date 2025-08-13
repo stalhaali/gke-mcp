@@ -9,7 +9,7 @@ Claude Desktop provides a graphical interface for interacting with the GKE MCP S
 ### Prerequisites
 
 1. Confirm the `gke-mcp` binary is installed. If not, please follow the [installation instructions in the main readme](../../README.md#install-the-mcp-server)
-2. Claude Desktop is installed. If not, the application can be downloaded from [Claude's official website](https://claude.ai/download).
+2. Claude Desktop is installed. If not, the application can be downloaded from [Claude's official site](https://claude.ai/download).
 
 ### Configuration File Location
 
