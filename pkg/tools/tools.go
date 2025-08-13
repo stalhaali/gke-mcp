@@ -21,6 +21,7 @@ import (
 	"github.com/GoogleCloudPlatform/gke-mcp/pkg/tools/cluster"
 	"github.com/GoogleCloudPlatform/gke-mcp/pkg/tools/clustertoolkit"
 	"github.com/GoogleCloudPlatform/gke-mcp/pkg/tools/giq"
+	"github.com/GoogleCloudPlatform/gke-mcp/pkg/tools/instructions"
 	"github.com/GoogleCloudPlatform/gke-mcp/pkg/tools/logging"
 	"github.com/GoogleCloudPlatform/gke-mcp/pkg/tools/monitoring"
 	"github.com/GoogleCloudPlatform/gke-mcp/pkg/tools/recommendation"
@@ -34,6 +35,7 @@ func Install(ctx context.Context, s *server.MCPServer, c *config.Config) error {
 		cluster.Install,
 		clustertoolkit.Install,
 		giq.Install,
+		instructions.Install,  // ← NEW: Added instructions tool
 		logging.Install,
 		monitoring.Install,
 		recommendation.Install,
